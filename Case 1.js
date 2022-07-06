@@ -1,11 +1,3 @@
-const response = http.get('https://jsonplaceholder.typicode.com/posts/1')
-log.info(response.body)
-
-const userId = response.body.userId
-log.info('userId: ' + userId)
-
-log.info('@'.repeat(99))
-
 // POST
 const url = 'https://jsonplaceholder.typicode.com/posts'
 const headers = {
